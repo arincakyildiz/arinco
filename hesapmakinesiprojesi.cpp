@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int islem;
-	int value;
+	float value;
 	int sayi1,sayi2;
 	
 	printf("Islemler\n1:Toplama(+)\n2:Cikarma(-)\n3:Carpma(x)\n4:Bolme(/)\n\n\n");
@@ -16,21 +16,21 @@ int main(){
 		
 		case 1:
 			value=sayi1+sayi2;
-			printf("Sayilarin birbirleriyle toplami %d\n",value);
+			printf("Sayilarin birbirleriyle toplami %f\n",value);
 			
 			break;
 		
 		case 2:	
 		if (sayi1>sayi2){
 			value=sayi1-sayi2;
-			printf("Sayilarin birbirleriyle farki %d\n",value);
+			printf("Sayilarin birbirleriyle farki %f\n",value);
 			
 			break;
 	}
 
 		case 3:
 			value=sayi1*sayi2;
-			printf("Sayilarin birbirleriyle carpimi %d\n: ",value);
+			printf("Sayilarin birbirleriyle carpimi %f\n: ",value);
 			
 			break;
 		case 4:
@@ -38,7 +38,7 @@ int main(){
 			
 			
 			value=sayi1/sayi2;
-			printf("Sayilarin birbirine bolumu %d\n: ",value);
+			printf("Sayilarin birbirine bolumu %f\n: ",value);
 			
 			break;
 			}
