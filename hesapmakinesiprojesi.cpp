@@ -27,11 +27,6 @@ int main(){
 			
 			break;
 	}
-		else {
-			printf("Lutfen sayi1'i sayi2'den buyuk olacak sekilde girin:");	
-			
-			break;
-		}
 
 		case 3:
 			value=sayi1*sayi2;
